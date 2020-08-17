@@ -1,2 +1,2 @@
-def reverse_each_word (:sentence1)
-  string.to_s
+def reverse_each_word (sentence1)
+  sentence1.to_s
