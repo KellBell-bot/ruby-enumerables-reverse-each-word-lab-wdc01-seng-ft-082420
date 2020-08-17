@@ -1,4 +1,8 @@
-def reverse_each_word (sentence1, sentence2)
-  sentence1.to_s = sentence
-  sentence.reverse_each 
+def reverse_each_word (string)
+  array = string.slpit(" ")
+  test_arrary= []
+  array.collect do |string|
+    test_arrary << string.reverse
+  end
+  test_arrary.join (" ")
 end
