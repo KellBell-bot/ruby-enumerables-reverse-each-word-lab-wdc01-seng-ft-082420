@@ -1,3 +1,2 @@
-string = "Hello there, how are you?"
-def reverse_each_word (string)
-  string.time
+def reverse_each_word (:sentence1)
+  string.to_s
